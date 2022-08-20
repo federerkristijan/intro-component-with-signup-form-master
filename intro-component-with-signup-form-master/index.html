@@ -31,7 +31,7 @@
         display: flex;
         border: 3px solid blue;
         margin: 7rem 4rem;
-        padding: 5rem 5rem;
+        padding: 5rem 2rem;
         background-color: hsl(0, 100%, 74%);
       }
 
@@ -47,45 +47,52 @@
         margin: 1rem 1.5rem;
         border: 1px solid blue;
         max-height: 100%;
-        max-width: 100%;
+        width: 60%;
+        background: green;
       }
 
       .subscription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 5vh;
         width: 100%;
-        margin-bottom: 1rem;
+        padding: 2rem 0;
       }
 
       .form-wrapper {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         margin: 1rem 0;
         border: 1px solid green;
         background: azure;
         max-height: max-content;
-        max-width: fit-content;
+        width: 70%;
+        border-radius: 5%;
       }
 
-      .form-control {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 5vh;
+      form {
+        height: 90%;
+        width: 90%;
+        padding-bottom: 2rem;
       }
 
-      .form {
-        height: 70%;
+      .form-group {
+        height: 6vh;
+        width: 70%;
       }
+
 
       .button {
-        position: fixed;
+        width: 90%;
         bottom: 15%;
         right: 30%;
 
       }
 
       .small-text {
-        position: fixed;
         bottom: 5%;
         right: 30%;
       }
